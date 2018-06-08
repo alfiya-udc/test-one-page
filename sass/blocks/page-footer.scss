@@ -1,0 +1,31 @@
+.page-footer {
+    font-weight: 300;
+    padding-top: 45px;
+
+    &__wrapper {
+        @include container;
+    }
+
+    &__note {
+        color: #82828c;
+        font-size: 11px;
+        line-height: 16px;
+        margin-bottom: 23px;
+        text-align: center;
+            sup {
+                font-size: 5px;
+            }
+    }
+
+    &__info {
+        color: #82828c;
+        font-size: 11px;
+        line-height: 16px;
+        padding-bottom: 43px;
+        text-align: center;
+    }
+
+    &__phone-number {
+        color: #82828c;
+    }
+}

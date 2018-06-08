@@ -1,0 +1,10 @@
+.cards-list {
+
+    &__wrapper {
+        @include container;
+
+        @media (min-width: 890px) {
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.page-header {
+    
+    &__wrapper {
+        @include container;
+        padding: 0 55px 0 55px;
+    }
+
+    &__logo {
+        margin-top: 60px;
+        margin-bottom: 28px;
+    }
+
+    &__logo-link {
+        display: block;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 26px;
+        line-height: 32px;
+        color: #555555;
+        margin-bottom: 26px;
+        text-align: center;
+    }
+
+    &__slogan {
+        color: #555555;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 40px;
+        text-align: center;
+        
+        sup {
+            color: #77b5dd;
+            font-size: 8px;
+        }
+    }
+}

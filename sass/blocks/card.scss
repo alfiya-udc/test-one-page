@@ -1,0 +1,70 @@
+.card {
+    margin: 0 auto;
+    width: 270px;
+    background: white;
+    transition: 0.3s;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &:active {
+        transform: translateY(-3px);
+        opacity: 0.5;
+    }
+
+    &__link {
+        display: block;
+    }
+
+    &__color-item {
+        display: none;
+        
+        &--active {
+            display: block;
+        }
+    }
+
+    &__foto {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    &__color-name {
+        display: block;
+        color: #bebebe;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    &__togglers {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 160px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: #82828c;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 300;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    &__price {
+        color: #ff4e00;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 300;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,61 @@
+.card-toggler {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+        &--active {
+            border: 1px solid currentColor;
+            border-radius: 50%;
+        }
+
+        &--black {
+            color: black;
+        }
+    
+        &--blue {
+            color: #3d69df;
+        }
+    
+        &--gold {
+            color: #c7b299; 
+        }
+    
+        &--silver {
+            color: #bebec8;
+        }
+    
+        &--grey {
+            color: #828282;
+        }
+
+    &__color {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &--black {
+            background: black;
+        }
+    
+        &--blue {
+            background: #3d69df;
+        }
+    
+        &--gold {
+            background: #c7b299; 
+        }
+    
+        &--silver {
+            background: #bebec8;
+        }
+    
+        &--grey {
+            background: #828282;
+        }
+              
+    }
+}
