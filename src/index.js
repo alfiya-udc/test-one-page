@@ -56,19 +56,6 @@ function createTabs(event) {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }());
 
 
